@@ -1,0 +1,258 @@
+@media screen and (orientation: landscape){
+.User_div{
+    background-image: url("https://i.pinimg.com/736x/b7/b1/33/b7b1335b18120b8b35da424def191ace.jpg");
+    min-height: 100vh;
+    max-height: 300vw;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tdContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.User_div_1{
+    background-color: #ffffff;
+    min-height: 50vh;
+    max-height: 300vh;
+    width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.AddBtns{
+    background-color: #310345;
+    height: 6vh;
+    width: 9vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 2px solid #310345;
+}
+
+.User_div_1 table{
+    margin-top: 30px;
+    width:100%;
+    border-collapse: collapse;
+}
+
+.User_div_1 table thead th{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #34b3a6;
+    padding:10px;
+}
+
+.User_div_1 table tbody td{
+    text-align: center;
+    padding:10px;
+    border-collapse: collapse;
+}
+.bodyS{
+    padding-bottom: 10px;
+}
+.tdHeading{
+    color: #5c5951;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.updateBtn{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    background-color: Green;
+    border: 2px solid green;
+    border-radius: 4px;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.LinkElement{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.updateBtn:hover{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    height: 7vh;
+    width: 12vw;
+    cursor: pointer;
+}
+
+.delBtn{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #dec826;
+    border: 2px solid #dec826;
+    border-radius: 4px;
+    margin-left: 20px;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.delBtn:hover{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    height: 7vh;
+    width: 12vw;
+    cursor: pointer;
+}
+
+}
+
+@media screen and (orientation: portrait){
+.User_div{
+    background-image: url("https://i.pinimg.com/736x/b7/b1/33/b7b1335b18120b8b35da424def191ace.jpg");
+    min-height: 100vh;
+    max-height: 300vw;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tdContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.User_div_1{
+    background-color: #ffffff;
+    min-height: 50vh;
+    max-height: 300vh;
+    width: 95vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.AddBtns{
+    background-color: #310345;
+    height: 6vh;
+    width: 9vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 2px solid #310345;
+}
+
+.User_div_1 table{
+    margin-top: 30px;
+    width:100%;
+    border-collapse: collapse;
+}
+
+.User_div_1 table thead th{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #34b3a6;
+    padding:10px;
+}
+
+.User_div_1 table tbody td{
+    text-align: center;
+    padding:10px;
+    border-collapse: collapse;
+}
+.bodyS{
+    padding-bottom: 10px;
+}
+.tdHeading{
+    color: #5c5951;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+}
+
+.updateBtn{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    background-color: Green;
+    border: 2px solid green;
+    border-radius: 4px;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.LinkElement{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.updateBtn:hover{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    height: 7vh;
+    width: 12vw;
+    cursor: pointer;
+}
+
+.delBtn{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #dec826;
+    border: 2px solid #dec826;
+    border-radius: 4px;
+    margin-left: 20px;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.delBtn:hover{
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    height: 7vh;
+    width: 12vw;
+    cursor: pointer;
+}
+}

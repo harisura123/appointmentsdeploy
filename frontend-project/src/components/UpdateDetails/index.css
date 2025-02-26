@@ -1,0 +1,90 @@
+
+.BookAppointment{
+    background-color: #ffffff;
+    height: 6vh;
+    cursor: pointer;
+    width: 18vw;
+    background-size: cover;
+    color: green;
+    font-family: Lobster;
+    font-size: 20px;
+    font-weight: thin;
+    border: 2px solid green;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.BookAppointment:hover{
+    background-color: green;
+    height: 6vh;
+    cursor: pointer;
+    width: 18vw;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Lobster;
+    font-size: 20px;
+    font-weight: thin;
+    border: 2px solid green;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.AddDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.AddDetailsContainer1{
+    background-color: aliceblue;
+    height: 84vh;
+    width: 50vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 24px;
+    border: 2px solid aliceblue;
+}
+
+.AddDetailsHead{
+    color: #4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.LogoDetailsImage2{
+    height: 12vh;
+    width: 13vw;
+    align-self: center;
+}
+
+.AddDetailsContainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.AddDetailsContainer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:10px;
+}
+
+.AddDetailsContainer4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

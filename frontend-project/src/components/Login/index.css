@@ -1,0 +1,267 @@
+@media screen and (orientation: landscape){
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width:30vw;
+    box-shadow: 0px 0px 10px 0px black;
+    background-color: aliceblue;
+    border-radius: 24px;
+    border:2px solid aliceblue;
+}
+
+.LogoImage1{
+    height: 10vh;
+    width: 10vw;
+    align-self: center;
+    margin-top: 13px;
+}
+
+.formHeading{
+    color: #4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formHeading:hover{
+    color: green;
+}
+
+.LoginContainer1{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-top: 20px;
+padding-left: 60px;
+}
+
+.loginlabel{
+color:#475569;
+font-family: 'Roboto';
+font-size: 15px;
+font-weight: bold;
+padding-bottom: 5px;
+}
+
+.logininput{
+background-color: transparent;
+height: 5vh;
+width: 17vw;
+background-size: cover;
+color: #6d7375;
+font-family: 'Roboto';
+font-size: 15px;
+font-weight: thin;
+border: 2px solid #6d7375;
+border-radius: 8px;
+outline: none;
+padding-left: 5px;
+}
+
+.loginlabelP{
+color: #475569;
+font-family: 'Roboto';
+font-size: 15px;
+font-weight: bold;
+padding-bottom: 5px;
+padding-top: 10px;
+}
+
+.loginbutton{
+background-color: #d3d629;
+height: 6vh;
+width: 18vw;
+background-size: cover;
+color: #ffffff;
+font-family: Lobster;
+font-size: 20px;
+font-weight: thin;
+cursor: pointer;
+border: 2px solid #d3d629;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.LoginError{
+    color: red;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: thin;
+}
+.loginpara{
+color: #475569;
+font-family: 'Bree Serif';
+font-size: 20px;
+font-weight: 500;
+line-height: 1px;
+}
+
+.signbutton{
+background-color: #121211;
+height: 6vh;
+width: 18vw;
+cursor: pointer;
+background-size: cover;
+color: #ffffff;
+font-family: Lobster;
+font-size: 20px;
+font-weight: thin;
+border: 2px solid #121211;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.LinkElement{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+}
+
+
+@media screen and (orientation: portrait){
+    .formContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .LoginContainer{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        max-width: 90vw;
+        width: 55vw;
+        box-shadow: 0px 0px 10px 0px black;
+        background-color: aliceblue;
+        border-radius: 24px;
+        border:2px solid aliceblue;
+    }
+    
+    .LogoImage1{
+        height: 10vh;
+        width: 10vw;
+        align-self: center;
+        margin-top: 13px;
+    }
+    
+    .formHeading{
+        color: #4b4f57;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .formHeading:hover{
+        color: green;
+    }
+    
+    .LoginContainer1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-left: 60px;
+    }
+    
+    .loginlabel{
+    color:#475569;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    }
+    
+    .logininput{
+    background-color: transparent;
+    height: 6vh;
+    max-width: 30vw;
+    width: 27vw;
+    background-size: cover;
+    color: #6d7375;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: thin;
+    border: 2px solid #6d7375;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 5px;
+    }
+    
+    .loginlabelP{
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    }
+    
+    .loginbutton{
+    background-color: #d3d629;
+    height: 7vh;
+    max-width: 30vw;
+    width: 27vw;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Lobster;
+    font-size: 20px;
+    font-weight: thin;
+    cursor: pointer;
+    border: 2px solid #d3d629;
+    border-radius: 8px;
+    margin-top: 10px;
+    }
+    
+    .LoginError{
+        color: red;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-weight: thin;
+    }
+    .loginpara{
+    color: #475569;
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    font-weight: 500;
+    }
+    
+    .signbutton{
+    background-color: #121211;
+    height: 7vh;
+    max-width: 30vw;
+    width: 27vw;
+    cursor: pointer;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Lobster;
+    font-size: 20px;
+    font-weight: thin;
+    border: 2px solid #121211;
+    border-radius: 8px;
+    margin-top: 10px;
+    }
+    
+    .LinkElement{
+        text-decoration: none;
+        color: #ffffff;
+    }
+}

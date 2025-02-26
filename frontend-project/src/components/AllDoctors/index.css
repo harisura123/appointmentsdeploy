@@ -1,0 +1,110 @@
+.DoctordContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.DoctorMainHeading{
+    color: #4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.DoctorsUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.changeButton{
+    background-color: #ffffff;
+    height: 7vh;
+    width: 14vw;
+    background-size: cover;
+    color: green;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid green;
+    border-radius: 8px;
+}
+
+.changeButton:hover{
+    background-color: green;
+    height: 7vh;
+    width: 14vw;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid green;
+    border-radius: 8px;
+}
+
+.DoctorsUl1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.DoctorsLi{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50vh;
+    width: 20vw;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+
+.DoctorsLi:hover{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 55vh;
+    width: 20vw;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+
+.DoctorsImage{
+    height: 35vh;
+    width: 20vw;
+}
+
+.DoctorAHead{
+    color: green;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    padding-left:14px;
+}
+
+.DoctorName{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2%;
+    padding-left:14px;
+}
+
+.DoctorSpeciality{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    padding-left:14px;
+}

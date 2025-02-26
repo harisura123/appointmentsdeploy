@@ -1,0 +1,228 @@
+.DetailsMainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.DetailsContainer{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.DoctorImage1{
+    height: 44vh;
+    width: 30vw;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.DetailsContainer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid #4b4f57;
+    border-radius: 8px;
+    height: 40vh;
+    width: 70vw;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.DetailsName{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2%;
+}
+
+.DetailsContainer2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.DetailsDegree{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500; 
+}
+
+.DetailsSpeciality{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500; 
+    padding-right: 10px;
+}
+
+.DetailsExperience{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500; 
+    padding-right: 5px;
+}
+
+.DetailsAbout{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold; 
+    line-height: 2%;
+}
+
+.DetailAbout{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.DetailsFees{
+    color:#4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
+.BookAppointment{
+    background-color: #ffffff;
+    height: 6vh;
+    cursor: pointer;
+    width: 18vw;
+    background-size: cover;
+    color: green;
+    font-family: Lobster;
+    font-size: 20px;
+    font-weight: thin;
+    border: 2px solid green;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.BookAppointment:hover{
+    background-color: green;
+    height: 6vh;
+    cursor: pointer;
+    width: 18vw;
+    background-size: cover;
+    color: #ffffff;
+    font-family: Lobster;
+    font-size: 20px;
+    font-weight: thin;
+    border: 2px solid green;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.AddDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.AddDetailsContainer1{
+    background-color: aliceblue;
+    height: 84vh;
+    width: 50vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 24px;
+    border: 2px solid aliceblue;
+}
+
+.AddDetailsHead{
+    color: #4b4f57;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.LogoDetailsImage2{
+    height: 12vh;
+    width: 13vw;
+    align-self: center;
+}
+
+.AddDetailsContainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.AddDetailsContainer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin:10px;
+}
+
+.AddDetailsContainer4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.custom-slot{
+    border: 2px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    background-color: #222;
+    color: #ffffff;
+}
+
+.custom-slot:focus{
+    outline: none;
+    border-color: #666;
+}
+
+.react-datepicker{
+   border: 1px solid #555;
+   border-radius: 5px;
+   background-color: #333;
+} 
+
+.react-datepicker__header{
+    background-color: #444;
+    color: #fff
+}
+ 
+.react-datepicker__day--selected{
+    background-color: #666;
+    color: #fff
+}
+
+.react-datepicker__day--weekend{
+    color: #ffffff;
+    background-color:transparent;
+}
+
+.react-datepicker__day--weekend:hover{
+    background-color: #555;
+}
